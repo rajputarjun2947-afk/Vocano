@@ -20,6 +20,7 @@ import { AdminProducts } from '@/pages/admin/AdminProducts';
 import { AdminOrders } from '@/pages/admin/AdminOrders';
 import { AdminUsers } from '@/pages/admin/AdminUsers';
 import { AdminCoupons } from '@/pages/admin/AdminCoupons';
+import { AdminLoginPage } from '@/pages/admin/AdminLoginPage';
 import { AboutPage } from '@/pages/static/AboutPage';
 import { ContactPage } from '@/pages/static/ContactPage';
 import { FAQPage } from '@/pages/static/FAQPage';
@@ -57,6 +58,7 @@ function App() {
       <Routes>
         {/* Public Routes */}
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/admin-login" element={<AdminLoginPage />} />
 
         {/* Customer Routes */}
         <Route
